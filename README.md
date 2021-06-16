@@ -21,4 +21,4 @@ npm install
 
 _Para ver en funcionamiento este proyecto_
 
-[Aerolab-Challege-Vercel](https://vercel.com/dashboard) 🖇️
+[Aerolab-Challege-Vercel](https://aerolab-challenge-rose.vercel.app/) 🖇️
