@@ -3,6 +3,7 @@ import {useAppContext} from '../contexts/AppContext';
 import {postPoints} from '../api/User'
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link'
+import Image from 'next/image'
 export default function Account(){
     const { user, getDataUser, setRedeem } = useAppContext();
     const [loadingPoints, setLoadingPoints]=useState(false)
@@ -80,7 +81,7 @@ useEffect(()=>{
                     {user.redeemHistory && user.redeemHistory.map((item, key)=>
                         <div key={key} className='flex bg-white m-3 md:w-5/12 rounded-xl'>
                             <div>
-                                <img className='text-xl text-gray-900 md:ml-5' src={item.img.url} />
+                                <Image width={250} height={200} className='text-xl text-gray-900 md:ml-5' src={item.img.url} />
                             </div>
                             <div className='p-2 w-7/12'>
                             <p className='text-xl text-gray-800 md:ml-5'>{item.name}</p>

@@ -121,8 +121,8 @@ const sort = (type)=>{
               <div className='flex flex-col items-center md:w-2/12'>
                 <p className='text-gray-500 text-2xl'>{toPage} of {totProducts.length} products</p>
                 <div className='flex md:w-10/12 w-full justify-between mt-3 items-center'>
-                  <img src='/img/arrow-left.svg' className='hover:bg-skyblue rounded-full cursor-pointer' onClick={()=>reversePage()}/>
-                  <img src='/img/arrow-right.svg' className='hover:bg-skyblue rounded-full cursor-pointer' onClick={()=>fordwardPage()}/>
+                  <Image width={50} height={50} src='/img/arrow-left.svg' className='hover:bg-skyblue rounded-full cursor-pointer' onClick={()=>reversePage()}/>
+                  <Image width={50} height={50} src='/img/arrow-right.svg' className='hover:bg-skyblue rounded-full cursor-pointer' onClick={()=>fordwardPage()}/>
                 </div>
               </div>
                 <div className='flex items-center md:w-6/12 mt-3'>
