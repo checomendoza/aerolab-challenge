@@ -2,7 +2,7 @@
 Este es un proyecto de desafio de Aerolab. Consiste en crear una app para la vista de productos utilizando principalmente React.js
 
 ## Aclaraciones 📋 
-_Este es un proyecto de pruebas, no debe ser tomado como funcional 100%, dado que se utilizó un API para tal fin
+_Este es un proyecto de pruebas, no debe ser tomado como funcional 100%, dado que se utilizó un API para tal fin_
 
 ## Construido con 🛠️ 
 _Estas son las librerias utilizadas en el proyecto_
