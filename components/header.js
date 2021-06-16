@@ -5,7 +5,7 @@ export default function Header(){
     const { user } = useAppContext();
 
     return(
-        <div className='flex justify-between items-center bg-skyblue h-20 sticky top-0 z-40 px-7 py-3 absolute'>
+        <div className='flex justify-between items-center bg-white shadow bg-opacity-95 h-20 sticky top-0 z-50 px-7 py-3 absolute'>
             <Link href='/'>
                 <a>
                     <Image width={40} height={40} src='/img/aerolab-logo.svg'/>
@@ -13,7 +13,7 @@ export default function Header(){
             </Link>
             <div className='flex items-center'>
             <Link href='/account'>
-                <a className='text-2xl text-gray-500 mx-3 hover:text-white'>
+                <a className='text-2xl text-gray-500 mx-3 hover:text-skyblue'>
                 {user.name}
                 </a>
             </Link>
